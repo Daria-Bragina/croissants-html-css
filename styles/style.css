@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Amalfi-Regular';
+    src: url("../fonds/Amalfi-Regular.ttf");
+}
+@font-face {
+    font-family: 'IntroHeadR-Base';
+    src: url("../fonds/IntroHeadR-Base.otf");
+}
+body {
+    background-color: #f8f5f7;
+    font-family: 'IntroHeadR-Base', sans-serif;
+    color: #5D3427;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    padding: 50px 0;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
+    margin-left: 90px;
+}
+.info-list, .order-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+.info-item a, .order-list a{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #5D3427;
+    text-transform: uppercase;
+}
+.info-item a:hover, .order-list a:hover {
+    border-bottom: 2px solid #5D3427;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    fill: #5D3427;
+}
+.order {
+    margin-right: 90px;
+}
+.main-content {
+    margin-top: 60px;
+}
+.main-title {
+    font-family: 'Amalfi-Regular', sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #33150d;
+    line-height: 90%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.main-box {
+    display: flex;
+    margin-top: 50px;
+}
+.image1 {
+    position: absolute;
+    left: -20px;
+    width: 45%;
+    height: 45%;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: -15px auto 0;
+    width: 400px;
+}
+.main-text {
+    font-size: 18px;
+    line-height: 130%;
+    text-align: justify;
+}
+.button {
+    border-radius: 60px;
+    border: none;
+    background-color: #e7a31c;
+    margin-top: 40px;
+    padding: 18px 28px;
+    text-transform: uppercase;
+    color: #33150d;
+    font-family: 'IntroHeadR-Base', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #d79311;
+}
+.image2 {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 45%;
+}
